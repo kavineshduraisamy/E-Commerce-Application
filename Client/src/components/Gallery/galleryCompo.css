@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+.galleryRow{
+    margin-top: 50px;
+}
+.galleryImg {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.galleryCard {
+    border: none !important;
+    overflow: none !important;
+    height: 70%;
+    /* opacity: 0.5; */
+}
+
+.galleryCard:hover {
+    /* opacity: 1; */
+    transform: scale(.9);
+    /* border: 1px solid yellow; */
+}
+
+.gallerySubtitle {
+    color: red !important;
+    font-family: 'Comfortaa', cursive;
+
+}
+.galleryLink,.galleryLink:hover{
+    text-decoration: none;
+    color: #000;
+}
+.bargain{
+    width: 70%;
+}
+h3{
+    color: #142b47;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+}
